@@ -1,4 +1,4 @@
-# AiPodcastSummarizer
+# Ai Podcast Summarizer
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.5.
 
@@ -11,6 +11,13 @@ ng serve
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+
+# GroqCloud
+[groq.com](https://groq.com/) is used for the AI interface.
+
+## Model used:
+- **whisper-large-v3** - for audio transcription
+- **llama3-8b-8192** - for text generation
 
 ## Code scaffolding
 
